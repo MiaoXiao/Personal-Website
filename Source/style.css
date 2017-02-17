@@ -4,7 +4,7 @@ body { padding-top: 70px; }
 #projects,
 #sound,
 #models,
-#contact { padding-top: 70px;}
+#contact { padding-top: 5px;}
 
 img
 {
@@ -15,11 +15,24 @@ img
 
 h3
 {
-    text-decoration: underline;
+    text-decoration: bold;
+}
+
+h1
+{
+    text-decoration: bold;
+	size: 50px;
 }
 
 .container { 
-  background: ##DCDCDC; 
+  background: #DCDCDC; 
+  text-align: center;
 }
 
 #sample { padding-top: 25px;}
+
+footer { 
+	padding-top: 100px;
+	font-style: italic;
+	text-align: center;
+}
