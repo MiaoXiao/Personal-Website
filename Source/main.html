@@ -15,11 +15,16 @@
 	<!-- Style.css -->
 	<link rel="stylesheet" href="style.css">
 	
+	<!-- Place this tag in your head or just before your close body tag. -->
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
+	
   </head>
   
   <body>
 
 	<div id="wrapper">
+
+	
 		<div id="sidebar-wrapper">
 			<ul class="nav sidebar-nav">
 				<li><a href="#about-me">About Me</a>
@@ -27,7 +32,9 @@
 				<li><a href="#sound">My Music</a></li>
 				<li><a href="#hobbies">Other Hobbies</a></li>
 				<li><a href="#contact">Contact Me</a></li>
-				<center><img src="../Project Images/profile-pic.jpg" class="img-rounded"></center>
+				<div id="bottom-left">
+					<center><img src="../Project Images/profile-pic.jpg" class="img-rounded"></center>
+				</div>
 			</ul>
 		</div>
 		<div id="page-content-wrapper">
@@ -53,20 +60,32 @@
 								<p class="lead"> Here are some personal projects I have worked on. </p>
 
 								<div class = "proj" id="page-wrap">
+
 									<div class = "span-12">
 										<a href="../Project Downloads/Rubber Ducky Stimulator.rar" download>
 											<h3 id="proj-title">Rubber Ducky Stimulator - 2017</h3>
-										</a>				
+										</a>
+										
 										<h4 id="proj-genre">Puzzle - Cooperative</h4>
-										<p id = "proj-description">Create waves in order to push all the rubber ducks into the drain.</p>
-
+										<p id="proj-pitch"> Create waves in order to push all the rubber duckies into the bathtub drain.</p>
+										<p id = "proj-description">	Originally, this game was created for Global Game Jam 2017, with the theme "Waves".
+										Most of this game was created in Unity within 3 days, although this is a more polished build which was worked on after GGJ2017 ended.
+										To play, you will need a friend and 2 controllers.
+										The controls are simple: use the left analog stick to move your cursor and the action button (for Xbox360, this should be A) to splash.
+										Splashing causes a wave to appear, pushing away other entities. This is your main mode of duck transportation! You and another friend must then work together to try and push every duck into the drain.
+										There are also 4 different ducks each with their own characterstics, and there are a plethora of other hazards such as urchins, faucets, and... whales? Yes, whales.
+										Try to get through all 20 stages!</p>
+										
 									</div>
+
 									<div class = "span-12">
 										<img src="../Project Images/rds1.png" class="img-thumbnail">
 										<img src="../Project Images/rds2.png" class="img-thumbnail">
 										<img src="../Project Images/rds3.png" class="img-thumbnail">
 										<img src="../Project Images/rds4.png" class="img-thumbnail">
 									</div>
+									<br>
+									
 								</div>
 								<br>
 								<div class = "proj" id="project">
@@ -75,7 +94,12 @@
 											<h3 id="proj-title">Crate Scorer - 2016</h3>
 										</a>
 										<h4 id="proj-genre">Arcade</h4>
-										<p id = "proj-description">Launch crates into hoops to score points.</p>
+										<p id="proj-pitch"> Launch crates into hoops to score points.</p>
+										<p id = "proj-description">This game was created in Unity for a job application, and development of this game spanned one week.
+										I was given a framework to improve upon. There are 30 stages, and your goal is to launch a variety of different crates into hoops in order
+										to score points and earn more time. The game is over once the timer hits 0. Missing crates will deduct time and falling off the center platform
+										will instantly end the game. One feature: you can hold left click and then release to launch crates different distances, depending on how long
+										you charged for. The enviornment also changes throughout the stages.</p>
 
 									</div>
 									<div class = "span-12">
@@ -89,23 +113,14 @@
 								<div class = "proj" id="project">
 									<div class = "span-12">
 										<a href="../Project Downloads/Staircase Generator.rar" download>
-											<h3 id="proj-title">The Light - 2016</h3>
-										</a>
-										<h4 id="proj-genre">Puzzle - Horror</h4>
-										<p id = "proj-description">Kill all the shadow creatures by illuminating them. This is a proof of concept, not really a game. </p>
-
-									</div>
-									<div class = "span-12">
-									</div>
-								</div>
-								<br>
-								<div class = "proj" id="project">
-									<div class = "span-12">
-										<a href="../Project Downloads/Staircase Generator.rar" download>
 											<h3 id="proj-title">Staircase Generator - 2016</h3>
 										</a>
-										<h4 id="proj-genre">Tool</h4>
-										<p id = "proj-description">Generates a staircase given some parameters.</p>
+										<h4 id="proj-genre">Showcase</h4>
+										<p id="proj-pitch"> Generates a staircase given some parameters.</p>
+										<p id = "proj-description">This game was created in Unity for a job application, and development of this tool spanned one week.
+										This appliction only generates staircases in run-time so unless this project is repurposed, you can't 
+										create different staircases for use in the editor. Nonetheless, you can create staircases with different stair lengths, widths, and heights and view that staircase using this application.
+										You also have the option of bouncing a ball between each step. (It looks cool!)</p>
 
 									</div>
 									<div class = "span-12">
@@ -115,25 +130,39 @@
 								<br>
 								<div class = "proj" id="project">
 									<div class = "span-12">
-										<a href="../Project Downloads/Snak.rar" download>
-											<h3 id="proj-title">Snak - 2015</h3>
+										<a href="../Project Downloads/Snak(Prototype).rar" download>
+											<h3 id="proj-title">Snak(Prototype) - 2015</h3>
 										</a>
 										<h4 id="proj-genre">Puzzle</h4>
-										<p id = "proj-description">Use control pads to guide the snake to all the stars.</p>
+										<p id="proj-pitch"> Use turn tile pads to guide Snak towards all the Stars.</p>
+										<p id = "proj-description"> This game was created using Allegro, which is a C++ graphics library. Development of this prototype took around 5 days.
+										If you haven't guessed it yet, this game is loosely based off Snake. In order to guide Snak (the snake) towads all the Stars, you need to turn tile pads and have them face
+										the right direction. When you start the game (after adjusting each turn tile pad), Snak will fire off and follow the direction of each turn tile pad it hits. If Snak hits a wall
+										or hits its own tail, you must restart. For this prototype, there are 4 levels, with some levels having optional coins Snak can collect.
+										</p>
 
 									</div>
 									<div class = "span-12">
-										
+										<img src="../Project Images/s1.png" class="img-thumbnail">
+										<img src="../Project Images/s2.png" class="img-thumbnail">
+										<img src="../Project Images/s3.png" class="img-thumbnail">
 									</div>
 								</div>
 								<br>
 								<div class = "proj" id="project">
 									<div class = "span-12">
-										<a href="http://miaoxiao.github.io/Melody-Matcher/">
+										<a href="http://miaoxiao.github.io/Melody-Matcher/" target="_blank">
 											<h3 id="proj-title">Melody Matcher - 2014</h3>
 										</a>
 										<h4 id="proj-genre">Music</h4>
-										<p id = "proj-description">Playback randomly generated melodies to score points.</p>
+										<p id="proj-pitch"> Playback randomly generated melodies to score points.</p>
+										<p id = "proj-description"> This was a college web project that took around a month to complete. The goal of this project was to help players with pitch and tone recognition.
+										Earn points by listening to 
+										randomly generated melodies and playing them back on a virtual piano. For each melody, you have a time limit where you must correctly play back the
+										melody or else the game ends. After each correctly played melody, the time limit resets. Although there are levels,
+										 the game is endless, Melody Matcher gets progressively more difficult after each successfully melody. Points are also dynamically calculated depending on
+										 the difficulty of the melody and several other factors such as accuracy and length of time spend completing the melody. Enjoy
+										multiple difficulties and selectable instruments. </p>
 
 									</div>
 									<div class = "span-12">
@@ -182,11 +211,5 @@
 			</div>
 		</div>
 	</div>
-	
-	<footer>
-		<p>Created by: Rica Feng</p>
-		<p>Contact information: <a href="mailto:rfeng001@ucr.edu">
-		rfeng001@ucr.edu</a>.</p>
-	</footer>
 
 </html>
