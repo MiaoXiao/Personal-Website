@@ -18,12 +18,21 @@
 	<!-- Place this tag in your head or just before your close body tag. -->
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
 	
+	<script src="javascript.js"></script>
+
   </head>
   
   <body>
 
 	<div id="wrapper">
 
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+			<div class="modal-dialog modal-lg">
+				<!-- Modal content-->
+				<center><img id = "modal-image" src="Project Images/" ></center>
+			</div>
+		</div>
 	
 		<div id="sidebar-wrapper">
 			<ul class="nav sidebar-nav">
@@ -32,7 +41,7 @@
 				<li><a href="#sound">My Music</a></li>
 				<li><a href="#hobbies">The Other Things I Do</a></li>
 				<div id="bottom-left">
-					<center><img src="Project Images/profile-pic.jpg" class="img-rounded"></center>
+					<center><img src="Project Images/profile-pic.jpg" class="img-rounded" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('profile-pic.jpg','')"></center>
 				</div>
 			</ul>
 		</div>
@@ -85,10 +94,10 @@
 									</div>
 
 									<div class = "span-12">
-										<img src="Project Images/rds1.png" class="img-thumbnail">
-										<img src="Project Images/rds2.png" class="img-thumbnail">
-										<img src="Project Images/rds3.png" class="img-thumbnail">
-										<img src="Project Images/rds4.png" class="img-thumbnail">
+										<img id = "proj-image" src="Project Images/rds1.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('rds1.png','')">
+										<img id = "proj-image" src="Project Images/rds2.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('rds2.png','')">
+										<img id = "proj-image" src="Project Images/rds3.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('rds3.png','')">
+										<img id = "proj-image" src="Project Images/rds4.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('rds4.png','')">
 									</div>
 									<br>
 									
@@ -109,10 +118,10 @@
 
 									</div>
 									<div class = "span-12">
-										<img src="Project Images/cs1.png" class="img-thumbnail">
-										<img src="Project Images/cs2.png" class="img-thumbnail">
-										<img src="Project Images/cs3.png" class="img-thumbnail">
-										<img src="Project Images/cs4.png" class="img-thumbnail">
+										<img id = "proj-image" src="Project Images/cs1.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('cs1.png','')">
+										<img id = "proj-image" src="Project Images/cs2.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('cs2.png','')">
+										<img id = "proj-image" src="Project Images/cs3.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('cs3.png','')">
+										<img id = "proj-image" src="Project Images/cs4.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('cs4.png','')">
 									</div>
 								</div>
 								<br>
@@ -130,7 +139,7 @@
 
 									</div>
 									<div class = "span-12">
-										<img src="Project Images/sg1.png" class="img-thumbnail">
+										<img id = "proj-image" src="Project Images/sg1.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('sg1.png','')">
 									</div>
 								</div>
 								<br>
@@ -149,9 +158,9 @@
 
 									</div>
 									<div class = "span-12">
-										<img src="Project Images/s1.png" class="img-thumbnail">
-										<img src="Project Images/s2.png" class="img-thumbnail">
-										<img src="Project Images/s3.png" class="img-thumbnail">
+										<img id = "proj-image" src="Project Images/s1.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('s1.png','')">
+										<img id = "proj-image" src="Project Images/s2.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('s2.png','')">
+										<img id = "proj-image" src="Project Images/s3.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('s3.png','')">
 									</div>
 								</div>
 								<br>
@@ -172,7 +181,7 @@
 
 									</div>
 									<div class = "span-12">
-										<img src="Project Images/mm1.png" class="img-thumbnail">
+										<img id = "proj-image" src="Project Images/mm1.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('mm1.png','')">
 									</div>
 								</div>			
 							</div>
