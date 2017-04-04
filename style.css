@@ -1,5 +1,5 @@
 body {
-	background-color: #748BA7;
+	background-color: #646464;
 }
 
 .img-rounded{
@@ -18,7 +18,7 @@ body {
 }
 
 .proj { 
-	background: #D4AC6A; 
+	background: #F0F0EF; 
 	text-align: center;
 	border-style: groove;
 	padding-left: 15px;
@@ -27,7 +27,7 @@ body {
 }
 
 .topic{
-	background: #FFDFAA;
+	background: #BDBDBD;
 	border-style: groove;
 	padding-left: 15px;
 	padding-right: 15px;
@@ -49,7 +49,6 @@ h1, h2{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	
 	display: table;
 }
 
@@ -67,7 +66,7 @@ h1, h2{
 	margin-left: -250px;
 	left: 250px;
 	width: 250px;
-	background: #FFDFAA;
+	background: #F0F0EF;
 	position: fixed;
 	height: 100%;
 	overflow-y: auto;
