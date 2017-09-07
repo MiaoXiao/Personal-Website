@@ -30,10 +30,9 @@
 
 		<div id="sidebar-wrapper">
 			<ul class="nav sidebar-nav">
-				<li><a href="#about-me">About Me</a>
-				<li><a href="#projects">My Personal Projects</a></li>
-				<li><a href="#sound">My Music</a></li>
-				<li><a href="#hobbies">Other</a></li>
+				<li><a href="#about-me">About</a>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#sound">Music</a></li>
 				<div id="bottom-left">
 					<div class="brightness">
 						<center><img src="Project Images/profile-pic.jpg" class="img-rounded" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('profile-pic.jpg','')"></center>
@@ -60,7 +59,7 @@
 							<div class="topic" class = "row" id="about-me" >
 								
 								<h1 id="title" class="display-1">Rica Feng</h1>
-								<p class="lead">Hello, I like to develop video games. I founded a club in University of California Riverside dedicated to teaching students about the intricacies and challenges of video game development. I am currently studying computer science, but I am also knowledgeable in 3D graphics, music, tutoring, and game design. My goal is to better myself in these areas and contribute new and interesting software.<p>
+								<p class="lead">Hello, I founded a student organization in University of California Riverside dedicated to teaching students about the intricacies and challenges of video game development. I'm proficient in Unity3D, C#, C++, 3D modeling, music composition, tutoring, and general game design. My goal is to better myself in these areas and contribute new and interesting software.<p>
 								<a href="Resume.pdf" download> <button type="button" class="btn btn-primary">Download Resume</button> </a>
 								<a href="https://connect.unity.com/u/5824212b090915001b95b342" target="_blank"><button type="button" class="btn btn-default">Unity Connect</button></a>
 								<a href="https://github.com/MiaoXiao" target="_blank"><button type="button" class="btn btn-default">GitHub</button></a>
@@ -72,13 +71,36 @@
 							<div class="topic" class = "span-12" id="projects">
 								
 								<h2  id="title" class="display-4">Projects</h2>
-								<p class="lead"> Here are some personal projects I have worked on. 
-								Some have been for learning, some have been for school, and some have been for
-								job applications.
+								<p class="lead"> Video game personal projects.
 								<br><br>
-								You can click project titles to try out each game.
-								<div class = "proj" id="page-wrap">
+								You can click project titles to download and try each game.
+								</p>
 
+								<div class = "proj" id="page-wrap">
+									<div class = "span-12">
+										<a href="Project Downloads/Pet Feeder.rar" download>
+											<h3 id="proj-title">Pet Feeder - 2017</h3>
+										</a>
+										
+										<h4 id="proj-genre">Management</h4>
+										<p id="proj-pitch"> Score as many points as you can in five minutes by dragging combinations of ingredients to create recipes.</p>
+										<p id = "proj-description">	Created in 42 hours with another 2D artist for Mark Brown's Game Maker's Tool Kit Game Jam. Information on the theme is located <a href="https://itch.io/jam/gmtk-jam" target="_blank">here</a>.
+										Our design goal was to create a simple mouse only game that is easy to pick up and learn, but still have some complexity after learning the basics.
+										For example, placing ingredients so that they reduce the amount of time between dragging items is essential for getting higher scores, but new players need not concern themselves with it yet.</p>
+										
+									</div>
+
+									<div class = "span-12">
+										<div class="brightness">
+											<img id = "proj-image" src="Project Images/pf1.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('pf1.png','')">
+											<img id = "proj-image" src="Project Images/pf2.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('pf2.png','')">
+										</div>
+									</div>
+									<br>
+								</div>
+								<br>
+
+								<div class = "proj" id="project">
 									<div class = "span-12">
 										<a href="Project Downloads/Rubber Ducky Stimulator.rar" download>
 											<h3 id="proj-title">Rubber Ducky Stimulator - 2017</h3>
@@ -86,12 +108,11 @@
 										
 										<h4 id="proj-genre">Puzzle - Cooperative</h4>
 										<p id="proj-pitch"> Create waves in order to push all the rubber duckies into the bathtub drain.</p>
-										<p id = "proj-description">	Originally, this game was created for Global Game Jam 2017, with the theme "Waves".
-										Most of this game was created in Unity within 3 days, although this is a more polished build which was worked on after GGJ2017 ended.
-										To play, you will need a friend and 2 controllers.
-										The controls are simple: use the left analog stick to move your cursor and the action button (for Xbox360, this should be A) to splash.
+										<p id = "proj-description">	Created with a team of five for Global Game Jam 2017 and the theme "Waves".
+										To play, you will need a friend and two controllers.
+										Use the left analog stick to move your cursor and the action button (for a Xbox360 controller, this should be A) to splash.
 										Splashing causes a wave to appear, pushing away other entities. This is your main mode of duck transportation! You and another friend must then work together to try and push every duck into the drain.
-										There are also 4 different ducks each with their own characterstics, and there are a plethora of other hazards such as urchins, faucets, and... whales? Yes, whales.
+										There are also four different ducks each with their own characterstics, and there are a plethora of other hazards such as urchins, faucets, and... whales? Yes, whales.
 										Try to get through all 20 stages!</p>
 										
 									</div>
@@ -105,9 +126,9 @@
 										</div>
 									</div>
 									<br>
-									
 								</div>
 								<br>
+
 								<div class = "proj" id="project">
 									<div class = "span-12">
 										<a href="Project Downloads/Crate Scorer.rar" download>
@@ -202,9 +223,8 @@
 							<br>
 							
 							<div class="topic" class = "span-12" id="sound">
-								<h2 id="title" class="display-4">My Music</h2>
-								<p class="lead"> Here are several songs I composed. Songs were either written for particular student projects, or just for fun. 
-								I currently use Mixcraft to compose, although for some of my older work I used MuseScore. </p>
+								<h2 id="title" class="display-4">Music</h2>
+								<p class="lead"> Written and composed by me. </p>
 								
 								<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/279946970&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 								
@@ -220,22 +240,7 @@
 								
 								<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/55927646&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 								
-							</div>
-							
-							<br>
-							
-							<div class="topic" class = "span-12" id="hobbies">
-								<h2 id="title" class="display-4">Other</h2>
-								<p class="lead">
-								Besides creating video games, my other hobbies include guitar, the beach, anime, and playing board/card/tabletop games.
-								<br><br>
-								My favorite video games are Majora's Mask, Nier: Automata, and The Witness.
-								</p>
-								
-							</div>
-							
-							<br>
-							
+							</div>							
 						</div>
 					</div>
 				</div>
