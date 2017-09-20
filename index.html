@@ -31,11 +31,12 @@
 		<div id="sidebar-wrapper">
 			<ul class="nav sidebar-nav">
 				<li><a href="#about-me">About</a>
-				<li><a href="#projects">Projects</a></li>
+				<li><a href="#projects">Finished Projects</a></li>
+				<li><a href="#indev">In Development</a></li>
 				<li><a href="#sound">Music</a></li>
 				<div id="bottom-left">
 					<div class="brightness">
-						<center><img src="Project Images/profile-pic.jpg" class="img-rounded" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('profile-pic.jpg','')"></center>
+						<!--<center><img src="Project Images/profile-pic.jpg" class="img-rounded" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('profile-pic.jpg','')"></center>-->
 					</div>
 				</div>
 			</ul>
@@ -59,11 +60,11 @@
 							<div class="topic" class = "row" id="about-me" >
 								
 								<h1 id="title" class="display-1">Rica Feng</h1>
-								<p class="lead">Hello, my name is Rica Feng and I'm primarily a Unity game developer. I'm proficient in Unity3D, C#, C++, 3D modeling, music composition, tutoring, and general game design. My goal is to better myself in these areas and contribute new and interesting software.
-								<br>
+								<p class="lead">Hello, my name is Rica Feng and I'm primarily a game programmer and designer. My skill set includes Unity3D, C#, C++, 3D modeling, music composition, tutoring, and general game design. My goal is to better myself in these areas and contribute new and interesting software. I'm currently learning other engines and graphic libraries, such as Angel and Unreal Engine.
+								<br><br>
 								In University of California Riverside on 2013, I founded a student organization dedicated to teaching students about the intricacies and challenges of video game development. 
 								<p>
-								<a href="Resume.pdf" download> <button type="button" class="btn btn-primary">Download Resume</button> </a>
+								<a href="Rica Feng - RESUME.pdf" download> <button type="button" class="btn btn-primary">Download Resume</button> </a>
 								<a href="https://connect.unity.com/u/5824212b090915001b95b342" target="_blank"><button type="button" class="btn btn-default">Unity Connect</button></a>
 								<a href="https://github.com/MiaoXiao" target="_blank"><button type="button" class="btn btn-default">GitHub</button></a>
 								<a href="https://www.linkedin.com/in/rica-feng" target="_blank"><button type="button" class="btn btn-default">LinkedIn</button></a>
@@ -73,8 +74,8 @@
 								
 							<div class="topic" class = "span-12" id="projects">
 								
-								<h2  id="title" class="display-4">Projects</h2>
-								<p class="lead"> Video game personal projects.
+								<h2  id="title" class="display-4">Finished Projects</h2>
+								<p class="lead"> Some projects I have contributed towards.
 								<br><br>
 								You can click project titles to download and try each game.
 								</p>
@@ -186,7 +187,7 @@
 										</a>
 										<h4 id="proj-genre">Puzzle</h4>
 										<p id="proj-pitch"> Use turn tile pads to guide Snak towards all the Stars.</p>
-										<p id = "proj-description"> This game was created using Allegro, which is a C++ graphics library. Development of this prototype took around 5 days.
+										<p id = "proj-description"> This game was created using <a href="http://liballeg.org/" target="_blank"> Allegro</a>, which is a C++ graphics library. Development of this prototype took around 5 days.
 										If you haven't guessed it yet, this game is loosely based off Snake. In order to guide Snak (the snake) towads all the Stars, you need to turn tile pads and have them face
 										the right direction. When you start the game (after adjusting each turn tile pad), Snak will fire off and follow the direction of each turn tile pad it hits. If Snak hits a wall
 										or hits its own tail, you must restart. For this prototype, there are 4 levels, with some levels having optional coins Snak can collect.
@@ -226,7 +227,100 @@
 								</div>			
 							</div>
 						
-							<br>
+							<br>				
+							
+							<div class="topic" class = "span-12" id="indev">
+								
+								<h2  id="title" class="display-4">In Development</h2>
+								<p class="lead"> Projects in development or in hiatus.</p>
+
+								<div class = "proj" id="page-wrap">
+									<div class = "span-12">				
+										<h3 id="proj-title">Rubber Duck Rescue - 2017</h3>
+	
+										<h4 id="proj-genre">Puzzle</h4>
+										<p id="proj-pitch"> Tap to create ripples in the water and knock rubber ducks into life preservers in order to rescue them. </p>
+										<p id = "proj-description">	This will be a full release mobile game planned for Android and IOS. Based off a prototype created during Global Game Jam, tap the screen in order to generate splashes and
+										interact with the enviornment. Guide all the rubber ducks to safety!</p>
+										
+									</div>
+
+									<div class = "span-12">
+										<div class="brightness">
+											
+										</div>
+									</div>
+									<br>
+								</div>
+								<br>
+
+								<div class = "proj" id="page-wrap">
+									<div class = "span-12">				
+										<h3 id="proj-title">In Runes - 2017</h3>
+	
+										<h4 id="proj-genre">Strategy Rougelike</h4>
+										<p id="proj-pitch"> Traverse through dangerous ruins by by dragging lines on a cuztomizable rune grid to create different spells.</p>
+										<p id = "proj-description">	Mobile game created in a game development course in the University of California Riverside Extention center with two other students.
+										Collect runes and place them in a 9x9 grid. Draw different line patterns across runes to create and launch different projectiles. </p>
+										
+									</div>
+
+									<div class = "span-12">
+										<div class="brightness">
+											<img id = "proj-image" src="Project Images/ir1.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('ir1.png','')">
+											<img id = "proj-image" src="Project Images/ir2.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('ir2.png','')">
+										</div>
+									</div>
+									<br>
+								</div>
+								<br>
+								
+								<div class = "proj" id="page-wrap">
+									<div class = "span-12">				
+										<h3 id="proj-title">Celestial - 2017</h3>
+	
+										<h4 id="proj-genre">Strategy Competative</h4>
+										<p id="proj-pitch"> Face off against a friend in a turn based competative game, where you attempt to destroy your opponent's Stars.</p>
+										<p id = "proj-description">	PC game created during the April 2017 Ludum Dare game jam. Created over a three day period with the theme 'Earth Day'.
+										Celestial is a mix between card games like Dominion, and Battleship. Using Dust, which is the game's currency, purchase different planets and place them in your galaxy in order to obtain 
+										resources and defend your Stars. Launch meteors and comets to break through your opponent's defense. Both you and your opponent's galaxy will start with a random assortment of asteroids, 
+										which you can destroy for resources.</p>
+										
+									</div>
+
+									<div class = "span-12">
+										<div class="brightness">
+											<img id = "proj-image" src="Project Images/c1.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('c1.png','')">
+											<img id = "proj-image" src="Project Images/c2.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('c2.png','')">
+										</div>
+									</div>
+									<br>
+								</div>
+								<br>
+								
+								<div class = "proj" id="page-wrap">
+									<div class = "span-12">				
+										<h3 id="proj-title">Retriever - 2016</h3>
+	
+										<h4 id="proj-genre">Strategy RPG</h4>
+										<p id="proj-pitch"> Turn based strategy game where two students in a combat school decide to cheat and work together to overcome difficult threats. </p>
+										<p id = "proj-description">	Retriever is a PC game slated for release in several years.</p>
+										
+									</div>
+
+									<div class = "span-12">
+										<div class="brightness">
+											<img id = "proj-image" src="Project Images/r1.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('r1.png','')">
+											<img id = "proj-image" src="Project Images/r2.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('r2.png','')">
+											<img id = "proj-image" src="Project Images/r3.png" class="img-thumbnail" data-toggle="modal" data-target="#myModal" onclick="SwapModalImage('r3.png','')">
+										</div>
+									</div>
+									<br>
+								</div>
+								<br>
+								
+								</div>			
+							</div>
 							
 							<div class="topic" class = "span-12" id="sound">
 								<h2 id="title" class="display-4">Music</h2>
